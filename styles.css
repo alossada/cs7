@@ -161,6 +161,10 @@ h1{
     padding: 30px;
 }
 
+.card{ 
+    margin-bottom: 50px; 
+}
+
 .plus{
     display: block;
 }
@@ -175,10 +179,6 @@ h1{
 
 .cards_container{
     padding: 15px;
-}
-
-.card{ 
-    margin-bottom: 50px; 
 }
 
 }
