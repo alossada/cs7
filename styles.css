@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.body{
+    position: relative;
+}
+
 .promotions{
     background-color: #1CD1B0;
     font-size: 15px;
@@ -15,20 +19,21 @@
     position: sticky;
     top: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 header{
     background-color: #00669F;
     height: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.00);
-    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.00); */
+    box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.95);
 }
 
 h1{
     padding: 28px 27px;
     font-weight: 400;
-    color: #FFF9F9;
+    color: #000000;
+    font-size: 40px;
 }
 
 .cards_container{
@@ -102,15 +107,32 @@ h2{
 
 .card_btn{
     background-color: #00669F;
+    border: none;
     margin: 20px;
-    width: 128.784px;
-    height: 48.523px;
+    width: 128px;
+    height: 48px;
     color: #F3F3F3;
     text-align: center;
     font-size: 15px;
     font-weight: 400;    
 }
 
+.plus{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #00669F;
+    width: 60px;
+    height: 60px;
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500; 
+    border-radius: 50%;
+    border: none;
+    z-index: 3;
+    display: none;
+}
 .footer{
     background-color: #00669F;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -122,4 +144,41 @@ h2{
     padding: 16px;
     position: fixed;
     bottom: 0;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+
+.promotions{
+    background-color: #D1891C;
+}
+
+h1{
+    color: #FFF9F9;
+}
+
+.cards_container{
+    padding: 30px;
+}
+
+.plus{
+    display: block;
+}
+
+.footer{
+    text-align: center ;
+}
+
+}
+
+@media (max-width: 460px) {
+
+.cards_container{
+    padding: 15px;
+}
+
+.card{ 
+    margin-bottom: 50px; 
+}
+
 }
