@@ -1,1 +1,5 @@
-![Cards](./assests/proyecto.png)
+![Web](./assests/proyecto.png)
+
+![Tablet](./assests/tablet.png)
+
+![Mobile](./assests/tablet.png)
