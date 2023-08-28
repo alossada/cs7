@@ -2,4 +2,4 @@
 
 ![Tablet](./assests/tablet.png)
 
-![Mobile](./assests/tablet.png)
+![Mobile](./assests/mobile.png)
